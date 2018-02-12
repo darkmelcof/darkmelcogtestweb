@@ -5,8 +5,8 @@
 		<title>Portfolio - Projects</title>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-red.min.css" />
-		<script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>	
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	</head>
 	<body>
 
@@ -14,92 +14,168 @@
 		.mdl-card{
 		  width: 100%;
 		}
+	.demo-card-square.mdl-card {
+	  width: 320px;
+	  height: 320px;
+	}
+	.demo-card-square > .mdl-card__title {	  
+	  background:
+	    url('./pic.jpeg') bottom right 15% no-repeat #46B6AC;
+	}
+	.demo-card-square a{
+	  	color: #fff;
+		text-decoration: none;
+	}
+
 	</style>
 
 	<!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
-	  <div class="mdl-layout__drawer">
-	    <span class="mdl-layout-title">Clément</span>
 
-	    <nav class="mdl-navigation">
-	      <a class="mdl-navigation__link" href="index.html">Home</a>
-	      <a class="mdl-navigation__link" href="projects.html">Projects</a>
-	      <a class="mdl-navigation__link" href="about.html">About</a>
-	    </nav>
+		<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title">Clément - Software Engineer</span>
 
-	  </div>
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="index.html">Home</a>
+				<a class="mdl-navigation__link" href="projects.html">Projects</a>
+				<a class="mdl-navigation__link" href="contact.html">Contact</a>			
+			</nav>
+		</div>
 	   
 	  <main class="mdl-layout__content">
 	    <div class="page-content">
 	    	
-	    	<div class="mdl-grid">
-			  <div class="mdl-cell mdl-cell--2-col"></div>
-			  <div class="mdl-cell mdl-cell--8-col">
-				<!-- Your content goes here -->
-				
-	    		<div class="mdl-card mdl-shadow--2dp">
-	    		  <div class="mdl-card__title">
-	    		    <h2 class="mdl-card__title-text">Lorem ipsum</h2>
-	    		  </div>
-	    		  <div class="mdl-card__supporting-text">
-	    		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac rhoncus elit. Nunc convallis iaculis condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac nisl lectus. Donec gravida nisl vel fringilla finibus. Morbi vel risus eu ante gravida tempor. Proin metus massa, posuere sit amet lobortis vel, venenatis in dui. Donec venenatis aliquam viverra. Sed vitae venenatis risus. Mauris lacinia urna vel ipsum dignissim, vel suscipit felis faucibus.</p>
-	    		  </div>
-	    		</div>
-
-			<!-- End Content -->
-			</div>
-
-			  <div class="mdl-cell mdl-cell--2-col"></div>
-			</div>
-
-			<!-- Projects -->
 			<div class="mdl-grid">
 			  <div class="mdl-cell mdl-cell--2-col"></div>
-
-			  <div class="mdl-cell mdl-cell--4-col">
-				<!-- Your content goes here -->
-				
-	    		<div class="mdl-card mdl-shadow--2dp">
-	    		  <div class="mdl-card__title">
-	    		    <h2 class="mdl-card__title-text">Lorem ipsum</h2>
-	    		  </div>
-	    		  <div class="mdl-card__supporting-text">
-	    		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac rhoncus elit. Nunc convallis iaculis condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac nisl lectus. Donec gravida nisl vel fringilla finibus. Morbi vel risus eu ante gravida tempor. Proin metus massa, posuere sit amet lobortis vel, venenatis in dui. Donec venenatis aliquam viverra. Sed vitae venenatis risus. Mauris lacinia urna vel ipsum dignissim, vel suscipit felis faucibus.</p>
-	    		  </div>
-	    		</div>
-
-			<!-- End Content -->
-			</div>
-			
-			<div class="mdl-cell mdl-cell--4-col">
-				<!-- Your content goes here -->
-				
-	    		<div class="mdl-card mdl-shadow--2dp">
-	    		  <div class="mdl-card__title">
-	    		    <h2 class="mdl-card__title-text">Lorem ipsum</h2>
-	    		  </div>
-	    		  <div class="mdl-card__supporting-text">
-	    		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac rhoncus elit. Nunc convallis iaculis condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac nisl lectus. Donec gravida nisl vel fringilla finibus. Morbi vel risus eu ante gravida tempor. Proin metus massa, posuere sit amet lobortis vel, venenatis in dui. Donec venenatis aliquam viverra. Sed vitae venenatis risus. Mauris lacinia urna vel ipsum dignissim, vel suscipit felis faucibus.</p>
-	    		  </div>
-	    		</div>
-
-			<!-- End Content -->
-			</div>
-
+				  <div class="mdl-cell mdl-cell--8-col">
+	    			<h1 class="">Projects</h1>
+				  </div>
 			  <div class="mdl-cell mdl-cell--2-col"></div>
 			</div>
 
-			<footer class="mdl-mini-footer">
-  <div class="mdl-mini-footer__left-section">
-    <div class="mdl-logo">
-      More Information
-    </div>
-    <ul class="mdl-mini-footer__link-list">
-      <li><a href="#">Help</a></li>
-      <li><a href="#">Privacy and Terms</a></li>
-      <li><a href="#">User Agreement</a></li>
-    </ul>
+
+<!--     	<div class="mdl-grid">
+
+		  <div class="mdl-cell mdl-cell--2-col"></div>
+		  <div class="mdl-cell mdl-cell--8-col">
+			
+			
+			<span class="mdl-chip">
+			    <span class="mdl-chip__text">PHP</span>
+
+			</span>
+
+			<span class="mdl-chip">
+				<span class="mdl-chip__text">Polymer</span>
+			</span>
+
+			<span class="mdl-chip">
+				<span class="mdl-chip__text">HTML</span>
+			</span>
+
+			<span class="mdl-chip">
+				<span class="mdl-chip__text">CSS</span>
+			</span>
+		  <div class="mdl-cell mdl-cell--2-col"></div>
+	</div> -->
+
+
+<div class="mdl-grid">
+
+  
+  <div class="mdl-cell mdl-cell--6-col">
+			
+<!-- Card -->
+<div class="demo-card-square mdl-card mdl-shadow--2dp">
+	<div class="mdl-card__title mdl-card--expand">
+		<h2 class="mdl-card__title-text"><a target="_blank" href="https://moncoachlegumes.fr">Mon Coach Legumes</a></h2>
+	</div>
+	<div class="mdl-card__supporting-text">
+		<span class="mdl-chip">
+			<span class="mdl-chip__text">PHP</span>
+
+		</span>
+		<span class="mdl-chip">
+			<span class="mdl-chip__text">MySQL</span>
+
+		</span>
+		</span>
+		<span class="mdl-chip">
+			<span class="mdl-chip__text">Polymer</span>
+
+		</span>
+	</div>
+</div>
+<!-- End Card -->
+
+</div>
+
+  <div class="mdl-cell mdl-cell--6-col">
+			
+<!-- Card -->
+	<div class="demo-card-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text"><a target="_blank" href="http://www.artofclick.com/">Art of Click </a></h2>
   </div>
+  <div class="mdl-card__supporting-text">
+    <span class="mdl-chip">
+	    <span class="mdl-chip__text">Highcharts</span>
+	</span>
+    <span class="mdl-chip">
+	    <span class="mdl-chip__text">Javascript</span>
+	</span>
+    <span class="mdl-chip">
+	    <span class="mdl-chip__text">PHP</span>
+	</span>
+	    <span class="mdl-chip">
+		    <span class="mdl-chip__text">SQL</span>
+		</span>
+  </div>
+</div>
+<!-- End Card -->
+
+</div>
+
+
+  <div class="mdl-cell mdl-cell--6-col">
+			
+<!-- Card -->
+	<div class="demo-card-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text"><a target="_blank" href="https://diving-compass.github.io/home/">Smart Diving Compass</a></h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <span class="mdl-chip">
+	    <span class="mdl-chip__text">C/C++</span>
+	</span>
+    <span class="mdl-chip">
+	    <span class="mdl-chip__text">Arduino</span>
+	</span>
+    <span class="mdl-chip">
+	    <span class="mdl-chip__text">Project Management</span>
+	</span>
+  </div>
+</div>
+<!-- End Card -->
+
+</div>
+
+</div>
+
+
+
+	</div>
+		
+
+
+
+
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+
+
+  </div>
+  
   <div class="mdl-mini-footer__right-section">
     <button class="mdl-mini-footer__social-btn"></button>
     <button class="mdl-mini-footer__social-btn"></button>
@@ -107,14 +183,6 @@
   </div>
 </footer>
 
-	    	
-
-	    	
-
-
-	    </div>
-	  </main>
-	</div>
 
 	</body>
 	</html>
