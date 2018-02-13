@@ -11,6 +11,12 @@
 	<body>
 
 		<style>
+		.mdl-layout__drawer-button {
+			color: white;
+		}
+		h2{
+			color: #fff;
+		}
 		.mdl-card{
 			width: 100%;
 		}
@@ -22,10 +28,11 @@
 			width: 320px;
 			height: 200px;
 		}
-
+		
+		/*url('http://via.placeholder.com/320x320') bottom right 15% no-repeat #46B6AC;*/
 		.demo-card-square > .mdl-card__title {	  
 			background:
-			url('http://via.placeholder.com/320x320') bottom right 15% no-repeat #46B6AC;
+			url('http://lorempixel.com/320/132/') bottom right 15% no-repeat #46B6AC;
 		}
 		.demo-card-square a{
 			color: #fff;
@@ -113,9 +120,9 @@
 
 		<div class="mdl-grid">
 
-			<div class="mdl-cell mdl-cell--1-col"></div>
+			<div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-tablet"></div>		
 
-			<div class="mdl-cell mdl-cell--5-col">
+			<div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--2-offset-tablet mdl-cell--6-col-tablet">
 
 				<!-- Card -->
 				<div class="projects-card demo-card-square mdl-card mdl-shadow--2dp">
@@ -141,9 +148,8 @@
 			<!-- End Card -->
 
 			</div>
-			<div class="mdl-cell mdl-cell--1-col"></div>
 
-			<div class="mdl-cell mdl-cell--5-col">
+			<div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--2-offset-tablet mdl-cell--6-col-tablet">
 				
 				<!-- Card -->
 				<div class="projects-card demo-card-square mdl-card mdl-shadow--2dp">
@@ -165,14 +171,16 @@
 				<!-- End Card -->
 
 			</div>
+
+			<div class="mdl-cell mdl-cell--1-col-desktop"></div>
 		</div>
 
 
 <div class="mdl-grid">
 
-	<div class="mdl-cell mdl-cell--1-col"></div>
+	<div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--hide-tablet"></div>
 
-	<div class="mdl-cell mdl-cell--5-col">
+	<div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--2-offset-tablet mdl-cell--6-col-tablet">
 
 
 		<!-- Card -->
